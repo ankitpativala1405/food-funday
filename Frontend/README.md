@@ -1,25 +1,42 @@
-Thanks for downloading this theme!
+# 🍽️ [Restaurant Name] - Restaurant Website
 
-## Other Useful Links
+Welcome to the **[Restaurant Name]** website repository!  
+This project is a modern, responsive website for showcasing the restaurant’s menu, chefs, testimonials, and contact information.
 
-**ThemeWagon** is a great source for downloading free HTML templates built with the latest technology.
+---
 
-To download free templates, follow this link: https://themewagon.com/theme_tag/free/
+## 📌 Features
 
-Besides that, you can buy our premium templates for making your web development experience unforgettable.
+- 🏠 **Home Page** – Hero section with stunning images and intro text.
+- 🍔 **Menu Page** – Displays categories, dishes, prices, and descriptions.
+- 👨‍🍳 **Chefs Section** – Highlight the team with photos and bios.
+- 💬 **Testimonials** – Customer reviews with a slider.
+- 📞 **Contact Page** – Contact form with integrated email handling.
+- 📱 **Responsive Design** – Looks great on all devices.
+- 🌐 **SEO Friendly** – Optimized for search engines.
 
-Visit the store from here: https://themewagon.com/theme-categories/premium-templates/
+---
 
-Alternatively, here's our top most trending and selling items:
+## ⚙️ Tech Stack
 
-* [**Sparrow**](https://themewagon.com/themes/sparrow/) - A multipurpose template made with Bootstrap 4.1 and world's finest animation.
-* [**Posh**](https://themewagon.com/themes/posh-html5-bootstrap-4-template/) - Bootstrap 4 template with a myriad number of ready-to-deploy sections. 
-* [**Elixir**](https://themewagon.com/themes/elixir-elegant-html5-bootstrap-template-consultancy-agency-website/) - Bootstrap 4 agency template. Best for smooth animated scrolling. 
-* [**Freya**](https://themewagon.com/themes/bootstrap-4-premium-interior-design-template-freya/) - Interior design template made with Bootstrap 4. 
-* [**Reign Pro**](https://themewagon.com/themes/reign-pro-premium-corporate-agency-html5-template/) - A corporate template with a visually unique design scheme. 
-* [**Boots4**](https://themewagon.com/themes/first-ever-bootstrap-4-template/) - One of the first Bootstrap 4 templates ever made on earth. 
-* [**Hideaway**](https://themewagon.com/themes/hideaway/) - A template for resorts. Built with Bootstrap 4. 
-* [**Baikal**](https://themewagon.com/themes/bootstrap-4-startup-small-business-website-template/) - A smart Bootstrap template for start-up. 
-* [**Mega Discount**](https://themewagon.com/themes/mega-discount-bundle/) - A bundle of 26 HTML5 templates; best value for your money. 
+- **Frontend:** HTML5, CSS3, JavaScript (React.js)
+- **Styling:** Tailwind CSS / Bootstrap / Custom CSS
+- **Backend:** (Optional) Node.js, Express.js
+- **Database:** (Optional) MongoDB for storing reservations or contact queries.
+- **Deployment:** Vercel, Netlify, or your preferred hosting.
 
+---
 
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js & npm installed
+- Git installed
+
+### Installation
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/yourusername/restaurant-website.git
+   cd restaurant-website
