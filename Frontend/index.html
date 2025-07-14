@@ -953,7 +953,7 @@
                         <h4 class="form-title">BOOKING FORM</h4>
                         <p>PLEASE FILL OUT ALL REQUIRED* FIELDS. THANKS!</p>
 
-                        <form id="contact-form" method="post" class="reservations-box" name="contactform" action="mail.php">
+                        <form id="contact-form" method="post" class="reservations-box" name="contactform" action="">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="form-box">
                                     <input type="text" name="form_name" id="form_name" placeholder="Name" required="required" data-error="Firstname is required.">
@@ -976,9 +976,13 @@
                                 <div class="form-box">
                                     <select name="no_of_persons" id="no_of_persons" class="selectpicker">
                                         <option selected disabled>No. Of persons</option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="5+">More Than 5</option>
+                                        <option value="10+">More Than 10</option>
                                     </select>
                                 </div>
                             </div>
@@ -999,9 +1003,9 @@
                                 <div class="form-box">
                                     <select name="preferred_food" id="preferred_food" class="selectpicker">
                                         <option selected disabled>preferred food</option>
-                                        <option>Indian</option>
-                                        <option>Continental</option>
-                                        <option>Mexican</option>
+                                        <option value="Indian">Indian</option>
+                                        <option value="Continental">Continental</option>
+                                        <option value="Mexican">Mexican</option>
                                     </select>
                                 </div>
                             </div>
@@ -1010,9 +1014,9 @@
                                 <div class="form-box">
                                     <select name="occasion" id="occasion" class="selectpicker">
                                         <option selected disabled>Occasion</option>
-                                        <option>Wedding</option>
-                                        <option>Birthday</option>
-                                        <option>Anniversary</option>
+                                        <option value="Wedding">Wedding</option>
+                                        <option value="Birthday">Birthday</option>
+                                        <option value="Anniversary">Anniversary</option>
                                     </select>
                                 </div>
                             </div>
@@ -1196,6 +1200,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
+    <script src="js/formdata.js"></script>
 </body>
 
 </html>
