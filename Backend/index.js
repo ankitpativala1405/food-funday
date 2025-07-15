@@ -12,6 +12,17 @@ app.use(cors())
 app.use(express.json())
 app.use("/Table",TableRouter);
 
+
+app.get("/demo", async (requestAnimationFrame, res) => {
+  try {
+    const data = { message: "Demo route working fine!" };
+    res.status(200).json(data);
+  } catch (error) {
+    console.error("Error in /demo route:", error);
+    res.status(500).json({ error: "Something went wrong." });
+  }
+})
+
 app.listen(port, () => {
   console.log(`Server Start omn Port --> ${port}`);
   DbConnect();
