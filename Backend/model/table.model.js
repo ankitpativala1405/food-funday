@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const TableSchema = new mongoose.Schema(
   {
-    fullName: {
+    name: {
       type: String,
       required: true,
       trim: true,
@@ -16,7 +16,7 @@ const TableSchema = new mongoose.Schema(
       required: true,
       trim: true,
     },
-    people: {
+    person: {
       type: String,
       required: true,
     },

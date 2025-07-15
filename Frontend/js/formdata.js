@@ -27,10 +27,11 @@ document
       occasion: occasion,
     };
 
-    console.log(Guest);
+    console.log("Guest",Guest);
+    
 
     await (
-      await TableMethod.create(Guest)
-    ).json;
+      await TableMethod.PostTable(Guest)
+    ).json();
     alert("Signup successful!");
   });
